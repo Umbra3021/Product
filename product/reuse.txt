@@ -1,0 +1,89 @@
+ <div class="landing">
+      <h1>Go Beyond your Limits<br>Helping others to reach their dreams</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        laboreet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+        laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+
+ <div class="scene">
+        <div class="rocket">
+        <img src="img/rocket.png" width="10%" >
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rocket{
+
+    margin-top:5% ;
+    margin-right:10% ;
+    padding-top: 10%;
+    position: relative;
+    animation: animate 0.2s ease infinite;
+}
+
+.rocket img{
+    float: right;
+}
+
+@keyframes animate{
+
+    0%,100%{
+        transform:translateY(-2px);
+    }
+    50%{    
+        transform: translateY(2px);
+    }
+}
+
+.scene .rocket:before{
+
+    content: '';
+    position: absolute;
+    bottom: -500px;
+    left: 95%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 300px;
+    background: linear-gradient(red,transparent);
+    z-index: -1;
+}
+
+
+
+
+
