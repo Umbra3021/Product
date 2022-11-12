@@ -26,7 +26,7 @@
 
 .title .row {
 
-    background-image: url("img/bg2.svg");
+    background-color: #13263f;
     background-position-x:20%;
     background-repeat: no-repeat;
 
@@ -153,7 +153,7 @@ opacity: 1;
 
 
 .detail_info{   
-    background-image: url("img/bg3.svg");
+    background-color: #2f95b4;
     color: aliceblue;
     text-align: center;
 }   
