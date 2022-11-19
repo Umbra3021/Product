@@ -110,9 +110,16 @@
 }
 
 .hidden1{
-    transition: 6s ease;
+    transition: 4s ease;
     opacity: 0;
+    margin-bottom:5% ;
     
+}
+
+
+.hidden1 h4,.hidden2 h4{
+    padding-left: 5%;
+
 }
 
 .hidden2{
@@ -123,14 +130,14 @@
 
 .left{
 
-animation: slide-left 4s;
+animation: slide-left 3s;
 opacity: 1;
 
 }
 
 .right{
 
-    animation: slide-right 4s;
+    animation: slide-right 3s;
     opacity: 1;
 }
 
@@ -155,8 +162,11 @@ opacity: 1;
 .detail_info{   
     background-color: #2f95b4;
     color: aliceblue;
+}
+
+.regain h4{
     text-align: center;
-}   
+}
 
 #carouselExampleCaptions{
 
@@ -171,23 +181,48 @@ opacity: 1;
 
 .regain{
     padding-top: 5%;
+    min-width: 100%;
 }
 
 
 @keyframes slide-left{
     0%{margin-left:-800px;}
     20%{margin-left:-800px;}
-    35%{margin-left:0px;}
+    35%{margin-left:0px;opacity: 0.2;}
     100%{margin-left:0px;}
 }
 
 @keyframes slide-right{
     0%{margin-left:800px;}
     20%{margin-left:800px;}
-    35%{margin-left:0px;}
+    35%{margin-left:0px; opacity: 0.2;}
     100%{margin-left:0px;}
 }
 
+
+
+
+@media (max-width: 991px){
+
+    .product{
+        width: 70%;
+        padding-left: 10%;
+    }
+
+    .navbar-brand{
+
+        font-size: 100px;
+    }
+
+    button.navbar-toggler{
+
+        width: 100px;
+        height: 80px;
+    }
+    
+
+
+}
 
 
 
