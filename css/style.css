@@ -1,6 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+
+
+
 #navbarSupportedContent{
 
     padding-right: 10%;
@@ -42,7 +42,7 @@
 
 .title .row h1{
 
-    padding-top:30%;
+    padding-top:15%;
     font-size: 40px;
     font-weight: bolder;
     color: #00B3BF;
@@ -66,7 +66,7 @@
 
 }
 
-.title .row button{
+.btn{
     
     border-radius: 30px;
     background-color: transparent;
@@ -200,13 +200,29 @@ opacity: 1;
 }
 
 
-
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 @media (max-width: 991px){
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     .product{
         width: 70%;
         padding-left: 10%;
+    }
+
+    .title .row h1{
+        padding-top: 10%;
+        font-size: 80px;
     }
 
     .navbar-brand{
@@ -214,12 +230,29 @@ opacity: 1;
         font-size: 100px;
     }
 
+    #p1{
+        width: 70%;
+    }
+
+    #p2{
+        width: 80%;
+    }
+
+    h4{
+        font-size: 70px;
+    }
+
+    p{
+        font-size: 800px;
+    }
+
     button.navbar-toggler{
 
-        width: 100px;
+        width: 80px;
         height: 80px;
     }
     
+
 
 
 }
