@@ -211,10 +211,50 @@ opacity: 1;
 .regain{
     padding-top: 2%;
     min-width: 100%;
-    height:fit-content
+    height:fit-content;
+    padding-bottom: 15%;
+}
 
+.foot{
+    padding: 4% 6%;
+    margin-bottom: 15%;
+}
 
+.brandname{
+    float: left;
+}
 
+.links , .links2 , .links3 {
+    font-size: 13px;
+    margin-left: 15%;
+    list-style: none;
+    float: left;
+    border-right: 2px solid black;
+    padding-right: 5%;
+}
+
+.links ul , .links2 ul , .links3 ul{
+    font-weight: bolder;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.links li {
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.links2 ul{
+    visibility: hidden;
+}
+
+.links2 li{
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+.links3 li{
+    padding-top: 7%;
 }
 
 
@@ -232,7 +272,15 @@ opacity: 1;
     100%{margin-left:0px;}
 }
 
+@media (max-width: 1192px){
+    .links ,.links2 , .links3{
+        margin-left: 2%;
+    }
 
+    .brandname{
+        margin-right: 10%;
+    }
+}
 
 
 @media (max-width: 991px){
@@ -249,7 +297,7 @@ opacity: 1;
 
     .product{
         width: 70%;
-        padding-left: 10%;
+        padding-left: 20%;
     }
 
     .part1{
@@ -262,39 +310,59 @@ opacity: 1;
 
     .title .row h1{
         padding-top: 10%;
-        font-size: 80px;
+        font-size: 40px;
     }
 
     .navbar-brand{
 
-        font-size: 100px;
+        font-size: 30px;
     }
 
     #p1{
-        width: 70%;
+        width: 50%;
     }
 
     #p2{
-        width: 80%;
+        width: 60%;
     }
 
     h4{
-        font-size: 70px;
+        font-size: 30px;
     }
 
     p{
-        font-size: 800px;
+        font-size: 40px;
     }
 
     button.navbar-toggler{
 
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 40px;
     }
     
+    .brandname{
+        margin-right: 10%;
+    }
 
 
+}
 
+@media (max-width:575px) {
+    .brandname{
+        display: none;
+    }
+
+    .links , .links2 , .links3 {
+        font-size: 13px;
+        list-style: none;
+        padding-right: 5%;
+        padding-bottom: 3%;
+        margin-left: 15%;
+    }
+
+    
+
+    
 }
 
 
